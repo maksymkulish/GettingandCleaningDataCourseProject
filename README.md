@@ -29,12 +29,16 @@ Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Good luck!
 
-#How to reproduce my project:
-* Open the R script "my_program.r " using a text editor.
-* Change the parameter of the setwd function call to the working directory/folder (i.e., the folder where these the R script file is saved).
-* Run the R script "my_program.r ". It calls the R Markdown file, run_analysis.Rmd, which contains the bulk of the code.
+#How to reproduce this project:
+* Open the R script "run_analysis.r " using a text editor.
+* Change the parameter of the setwd function call to the working directory.
+* Run the R script "run_analysis.r ".
 
 #Outputs produced
 * dataset of tidy file HumanActivityRecognitionUsingSmartphones.txt (tab-delimited text)
 * Codebook file codebook.md (Markdown)
 
+## First steps
+0. Clone GitHUB project (include R script, codebook) on your PC.
+1. Follow to instructions in "codebook.md".
+2. Check outputs and push on your GitHUB project.
